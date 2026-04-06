@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>alert문</title>
+  </head>
+  <body>
+    <script>
+      // 자바스크립트 - 식 과 문
+      // 식 - 표현식 (연산식 뿐만 아니라 실제 값과 함수를 실행하는 것도 식)
+      //연산식은 식입니다.
+      const inch = 2;
+      inch * 2.54;
+      console.log(inch);
+      ("안녕하세요?"); // 문자열도 식입니다.
+      5; // 숫자도 식입니다.
+      // 문 - 명령 (문의 끝에는 세미클론(;)으로 구분)
+      // 문은 넓은 의미에서 값이나 식까지 포함합니다.
+      // 조건문 제어문 등을 예로 사용
+      // [ 간단한 입출력 방법 ]
+      // < 알림창 출력 >
+      // 기본형: alert(메세지)
+      // alert("안녕하세요? 반가워요");
+      // < 확인창 출력 >
+      // confirm(메세지) - 확인이나 취소 버튼 중에서 선택(참 거짓 포함)
+      // confirm("주소가 맞나요?")
+      // < 프롬프트창에서 입력받아서 출력 >
+      // prompt(메세지) 또는 prompt(메세지 , 기본값)
+      // prompt("이름을 입력하세요.")
+      // prompt("생년월일" , "yyyy-mm-dd");
+      // < 웹 브라우저 화면에 출력 >
+      // document.write()문
+      // document.write("<h1>이예빈</h1>");
+      // document.write("<h2>이예빈</h2>");
+      // document.write("<h3>이예빈</h3>");
+      // const name = prompt("이름을 입력하세요.");
+      // prompt("이름을 입력하세요.");
+      // document.write(name);
+      // document.write("<h1>이예빈</h1>")
+      //   `` (Backtick) 키보드 "~" 아래에 있음
+      document.write(`<div><h1>${name}</h1>님, 환영합니다.</div>`);
+      console.log(name);
+      // document.write("<h1>" + name + "</h1>")
+      //   변수 쓰는 이유 : 값을 기억해서 여러번 재사용하기 위해
+      const sum = 1000;
+      const price = sum * 3; // 1000 *3 의 값이 console에 표시됨
+      console.log(price);
+    </script>
+  </body>
+</html>
